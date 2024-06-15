@@ -27,6 +27,14 @@ The Container class uses a Style Strategy to draw itself and its children, wheth
 
 These classes provide specific implementations of the drawing methods. Each class provides its own way to draw containers and leaves, allowing for different visual representations.
 
+#### b. Strategy Interface : IconStrategy()
+The Strategy pattern allow different strategies for generating icons.
+
+##### - Concrete Strategy Class: PokerFaceIconStrategy(IconStrategy) & MoonsunIconStrategy(IconStrategy)
+
+These strategies allow you to switch between different icon sets dynamically based on the chosen strategy. It will set the container and leaf icons based on the strategies chosen by user. 
+
+
 ## Output
 Using the test cases from example.json file
 <img width="1069" alt="Screenshot 2024-06-15 at 02 38 24" src="https://github.com/delindawika/FunnyJsonExplorer_2/assets/65715881/a11ccf5c-1339-42a3-b7d1-99fb3eb2ff15">
